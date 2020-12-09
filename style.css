@@ -1,0 +1,78 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  padding: 0%;
+  margin: 0%;
+  background-color: #42445A;
+}
+
+/*MENU*/
+#a{
+  text-decoration: none;
+}
+
+.btn-abrir img{
+  width: 20%;
+  color: #000;
+}
+
+.btn-fechar img{
+  width: 10%;
+}
+
+#menu{
+  font-family: sans-serif;
+  height: 100%;
+  width: 0%;
+  background-color: #9C00FF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  transition: width 0.3s;
+}
+
+#menu #a{
+  color: #000;
+  font-size: 4vw;
+  display: block;
+  padding: 3% 2% 2% 3%;
+  text-align: center;
+}
+
+#menu #a:hover{
+  color: rgba(21,4,98);
+  background-color: #FFF;
+}
+
+#container{
+  align-items: center;
+  display: flex;
+}
+/*----*/
+
+/*COMECO*/
+.comeco{
+  margin-left: 5%;
+  font-size: 8vw;
+  color: #1CB013;
+  font-family: 'Fredoka One', cursive;
+}
+
+@media (min-width: 600px){
+  body{
+    width: 100%;
+  }
+  .comeco{
+    margin-left: 40%;
+  }
+  .btn-abrir img{
+    width: 45%;
+  }
+  .btn-fechar img{
+    width: 15%;
+  }
+}
